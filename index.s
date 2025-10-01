@@ -1,11 +1,11 @@
 global _start
 
 section .data
-    num DD 5
+    strg DB "abc", 0
 
 section .text
 
 _start:
+    MOV bl, [strg]
     MOV eax, 1
-    MOV ebx, [num]
     INT 0x80
