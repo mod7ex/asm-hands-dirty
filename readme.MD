@@ -1,18 +1,20 @@
 # Asm hands on
 
 ## Debug
->  `gdb bin/index`
+> `gdb bin/index`
 
->  `layout asm`
+> `layout asm`
 
->  `break _start`
+> `break _start`
 
->  `run`
+> `run`
 
->  `stepi`
+> `stepi`
 
->  `info registers eax`
+> `info registers eax`
 
->  get the value of an address `x/x $ebx` `x/[count][format][size] [address]`
+> get the value of an address `x/x $ebx` `x/[count][format][size] [address]`
 
-<!-- [10] -->
+> compile and restart using `run`
+
+<!-- [19] -->
